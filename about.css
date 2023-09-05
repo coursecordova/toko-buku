@@ -1,0 +1,41 @@
+.header {
+    background-color: rgb(255, 123, 0);
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.navbar-brand{
+    color: white !important;
+    font-weight: bold !important;
+}
+
+h1{
+    margin-left: 30px;
+}
+
+img{
+    margin-left: 30px;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+p{
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 768px) {
+
+    img{
+        margin-left: 30px;
+        width: 250px;
+        height: 250px;
+        border-radius: 12px;
+    }
+
+    p{
+        margin-right: 50px;
+    }
+}
